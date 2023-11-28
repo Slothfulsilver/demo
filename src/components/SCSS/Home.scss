@@ -1,0 +1,45 @@
+@import "../../Breakpoints/Breakpoints.scss";
+
+
+
+
+.content {
+    text-align: center;
+    @include media(">tablet"){
+        .header {
+            
+            display: inline-block;
+
+            .img1{
+                height: 40vh;
+                width: auto;
+            }
+            .desc{
+                height: 40vh;
+                margin-bottom: 5vh;
+                border-radius: 25px;
+            }
+
+        }
+
+        .stats {
+            border-radius: 25px;
+            margin-bottom: 3rem;
+            .gImage{
+                width: 70vh;
+                margin: 1rem;
+                border-radius: 3%;
+            }
+
+        }
+
+        .call-to-action{
+            .cImg{
+                width: 100%;
+                height: 100vh;
+            }
+        }
+    }
+}
+
+
